@@ -1,5 +1,7 @@
 # create-reducer
 
+Create Reducer Utility.
+
 ## Development
 
 Just run `npm install` and start coding.
