@@ -1,11 +1,12 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export interface Action<T = any> {
-  type: T
+  type: T;
 }
 
 export type ActionProps<P> = {
-  [T in keyof P]: P[T]
-}
+  [T in keyof P]: P[T];
+};
 
 export interface AnyAction extends Action {
-  [extraProps: string]: any
+  [extraProps: string]: any;
 }
